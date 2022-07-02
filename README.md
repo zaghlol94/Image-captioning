@@ -50,7 +50,8 @@ you could figure out how the loss declined over epochs using tensorboard by writ
 tensorboard --logdir=runs/ 
 then go to http://localhost:6006/
 ```
-![](imgs/loss.png)
+<div style="text-align:center"><img src="imgs/loss.png" /></div>
+
 # Citation
 ```commandline
 @misc{https://doi.org/10.48550/arxiv.1502.03044,
