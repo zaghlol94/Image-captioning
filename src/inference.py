@@ -30,7 +30,7 @@ def inference(model, device, vocab, image):
     )
 
 
-parser = argparse.ArgumentParser(description="translate string from german to english")
+parser = argparse.ArgumentParser(description="image captioning")
 parser.add_argument("-i", "--image", type=str, required=True, help="image that you want to translate")
 args = parser.parse_args()
 
